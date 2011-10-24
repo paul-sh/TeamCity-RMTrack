@@ -1,1 +1,7 @@
 TeamCity integration with RMTrack issue tracking
+
+Works with hosted RMTrack service. You'll need access and secret keys. They could be found in RMT administrative UI.
+Tested with TeamCity 6.5.2.
+
+To build the project rename build.properties.template to build.properties, adjust a path to TC installation.
+Open the project in IntelliJ IDEA Community Edition, build all.
