@@ -46,7 +46,7 @@
        <td>
          <props:textProperty name="pattern" maxlength="100" style="width: 16em;"/>
          <span id="error_idPrefix" class="error"></span>
-         <span class="fieldExplanation">Use regexp, e.g. RMT(\d+)<bs:help file="Issue+Tracker+Tab"/></span>
+         <span class="fieldExplanation">Use regexp, e.g. RMT\s?#?\s?(\d+)(\b|$)<bs:help file="Issue+Tracker+Tab"/></span>
         </td>
     </tr>
   </table>
