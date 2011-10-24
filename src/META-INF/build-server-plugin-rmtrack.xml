@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-autowire="constructor">
+  <bean id="rmtrackFetcher" class="com.paulsh.rmtrack.RMTrackIssueFetcher">
+    <constructor-arg index="0" ref="ehCacheUtil"/>
+  </bean>
+  <bean id="rmtrackFactory" class="com.paulsh.rmtrack.RMTrackIssueProviderFactory">
+    <constructor-arg index="0" ref="rmtrackFetcher"/>
+  </bean>
+</beans>
