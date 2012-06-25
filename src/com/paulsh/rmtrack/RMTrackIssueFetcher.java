@@ -157,7 +157,7 @@ public class RMTrackIssueFetcher extends AbstractIssueFetcher {
 
     @NotNull
     public String getUrl(@NotNull String repository, @NotNull String id) {
-        return String.format("https://rmtrack.com/%s/Issues/Issue.asp?IssueId=%s", repository, getRealId(id));
+        return String.format("https://rmtrack.com/%s/NonAdmin/Issues/IssueDetails.aspx?IssueId=%s", repository, getRealId(id));
     }
 
     @NotNull
