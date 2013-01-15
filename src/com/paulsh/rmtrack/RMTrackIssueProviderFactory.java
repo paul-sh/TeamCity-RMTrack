@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 public class RMTrackIssueProviderFactory extends AbstractIssueProviderFactory {
 
     protected RMTrackIssueProviderFactory(@NotNull IssueFetcher fetcher) {
-        super(fetcher, "rmtrack");
+        super(fetcher, "RMTrack");
     }
 
     @NotNull
